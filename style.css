@@ -1,0 +1,102 @@
+ *{margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:sans-serif
+ }
+  body{background:#8c9eff;
+  display:grid;
+  place-items:center;
+  min-height:100vh;
+  padding:20px
+  }
+  .card{background:#fff;
+  border-radius:24px;
+  padding:40px 60px;
+  max-width:1000px;
+  width:100%
+  }
+  nav, .social, .hero, .btns{display:flex;
+  align-items:center
+  }
+  nav{justify-content:space-betwee;
+  margin-bottom:50px
+  }
+  nav a{text-decoration:none;
+  color:#444;
+  margin:0 12px;
+  font-weight:500;
+  font-size:14px
+  }
+  .logo{font-weight:bold;font-size:18px;display:flex;align-items:center;gap:8px}
+  
+  .logo::before{content:'⚡';background:#6200ee;
+  color:#fff;
+  border-radius:50%;
+  width:28px;
+  height:28px;
+  display:grid;
+  place-items:center;
+  font-size:12px 
+  }
+  .social a{width:26px;
+  height:26px;
+  background:#000;
+  color:#fff;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  margin-left:8px;
+  font-size:10px;text-decoration:none
+  }
+  .hero{justify-content:space-between;gap:40px}
+  
+  .text{max-width:450px}
+  
+  h1{font-size:36px;
+  margin-bottom:15px;
+  line-height:1.2}
+  
+  h1 span{color:#6c63ff}
+  
+  p{color:#666;font-size:14px;margin-bottom:25px}
+  
+  .btns{gap:20px}
+  
+  .btn-blue{background:linear-gradient(90deg,#6200ee,#00b0ff);
+  color:#fff;
+  padding:12px 28px;
+  border-radius:25px;
+  text-decoration:none;
+  font-weight:bold}
+  
+  .btn-link{text-decoration:none;
+  color:#000;
+  font-weight:bold}
+  
+  .img-box{position:relative;
+  width:320px;
+  height:320px;
+  border:4px solid #00b0ff;
+  border-radius:50%;
+  overflow:hidden;
+  background:#e0f7fa}
+  
+  .img-box img{width:100%;
+  height:100%;
+  object-fit:cover}
+  
+  .badge{position:absolute;
+  width:40px;
+  height:40px;
+  background:#00b0ff;
+  color:#fff;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  font-size:16px}
+  
+  .badge-l{bottom:60px;left:0}
+  
+  .badge-r{bottom:90px;right:0}
+  
+  .img-wrap{position:relative}
